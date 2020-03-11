@@ -1,0 +1,22 @@
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+      background-color: lightblue;
+      display: none;
+
+      .main {
+        width: 100%;
+      }
+
+      .breadcrumbs {
+        float: none;
+        width: 100%;
+    }
+  }
+  @supports (display: flex) {
+    @media screen and (min-width: 900px) {
+      article {
+        display: flex;
+      }
+    }
+  }
