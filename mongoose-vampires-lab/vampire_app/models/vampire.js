@@ -10,5 +10,5 @@ name: 'Vampire Cat',
   loves: ['kitty chow','mice', 'yarn'],
   location: 'Minneapolis, Minnesota, US',
   gender: 'm',
-  victims: 100,000,
+  victims: 100,
 });
